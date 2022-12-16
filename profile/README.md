@@ -22,7 +22,7 @@ Usando Typescript como lenguaje de programación:
   - [Express.js]([https://github.com/vercel/next.js](https://expressjs.com))- Framework para Node.js
   - [Immutable X](https://www.immutable.com) - Zero Knowledge rollup donde almacenamos los coleccionables generados
   - [Mongo DB](https://www.mongodb.com) - No SQL database
-  - [Ethereum] - Smart Contract Solidity ERC 721 (Adapatado a los requerimientos de Immutable X)
+  - Ethereum - Smart Contract Solidity ERC 721 (Adapatado a los requerimientos de Immutable X)
   
   
 ## Cómo correr el proyecto 
