@@ -23,6 +23,12 @@ Usando Typescript como lenguaje de programación:
   - [Immutable X](https://www.immutable.com) - Zero Knowledge rollup donde almacenamos los coleccionables generados
   - [Mongo DB](https://www.mongodb.com) - No SQL database
   - Ethereum - Smart Contract Solidity ERC 721 (Adapatado a los requerimientos de Immutable X)
+- Guía utilizada:
+  - [NFT Minting Tutorial]([https://docs.x.immutable.com/docs/zero-to-hero-nft-minting/]) - Tutorial de Minting NFTs con Immutable X.
+  
+  
+## Explicación de la Arquitectura
+Para el diseño priorizamos dos atributos por sobre el resto: Experiencia de Usuario y Escalabilidad (preservando seguridad de L1). Por eso decidimos utilizar una L2 centralizada y especializada en NFTs que nos permite abstraer al usuario de ciertas características de Web3 (private keys si lo desea y gas fees). Para mejorar aún más la experiencia, los usuarios siempre tienen custodia de sus NFTs y utilizamos nuestro backend únicamente para realizar el minting de nuestra colección. Esta colección consiste de un contrato ERC-721 (modificado para interactuar con el rollup) que se encuentra en Ethereum L1, el minting y la transferencia de los activos ocurren off-chain para escalar. 
   
   
 ## Cómo correr el proyecto 
