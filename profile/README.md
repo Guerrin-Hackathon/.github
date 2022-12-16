@@ -19,9 +19,9 @@ Usando Typescript como lenguaje de programación:
 - Frontend:
   - [Next.js](https://github.com/vercel/next.js) - Framework de React
 - Backend: 
-  - [Express.js]- Framework para Node.js
-  - [Immutable X] - Zero Knowledge rollup donde almacenamos los coleccionables generados
-  - [Mongo DB] - No SQL database
+  - [Express.js]([https://github.com/vercel/next.js](https://expressjs.com))- Framework para Node.js
+  - [Immutable X](https://www.immutable.com) - Zero Knowledge rollup donde almacenamos los coleccionables generados
+  - [Mongo DB](https://www.mongodb.com) - No SQL database
   
   
 ## Cómo correr el proyecto 
