@@ -24,7 +24,7 @@ Usando Typescript como lenguaje de programación:
   - [Mongo DB](https://www.mongodb.com) - No SQL database
   - Ethereum - Smart Contract Solidity ERC 721 (Adapatado a los requerimientos de Immutable X)
 - Guía utilizada:
-  - [NFT Minting Tutorial]([https://docs.x.immutable.com/docs/zero-to-hero-nft-minting/]) - Tutorial de Minting NFTs con Immutable X.
+  - [NFT Minting Tutorial](https://docs.x.immutable.com/docs/zero-to-hero-nft-minting/) - Tutorial de Minting NFTs con Immutable X.
   
   
 ## Explicación de la Arquitectura
