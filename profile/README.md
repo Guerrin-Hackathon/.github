@@ -106,6 +106,14 @@ Correr `npm run dev`
 
 Nota: Hay que asegurarse de correr las aplicaciones en puertos distintos,e ingresar bien los links en el .env
 
+### Cosas para terminar
+ - Endpoint de distribución de los rewards. Consiste en enviarle al server mails y tokensId de los NFTs a repartir, y enviarle los NFTs a la wallet del server para custodiarlas hasta el claim.
+ - Endpoint del claim de los rewards (logica de enviar el nft al nuevo dueño).
+ - Vistas de NFTs individuales y por colección en particular de cada Creador.
+
+### Funcionamiento Correcto
+-Unicamente puede utilizarse como si fuese en producción la funcionalidad de mintear muchos rewards por parte del creador. Esto se puede realizar pegandole al endpoint ```/rewards``` de nuestro backend. Recomendamos probar la funcionalidad.
+
 ## Authors 
 - Julián Arce
 - Roberto Catalán
