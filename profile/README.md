@@ -1,6 +1,6 @@
 # Güerrín 🍕
 
-Repositorio para proyecto realizado durante hackathon King Of Devs.
+Repositorio para proyecto realizado durante hackathon King Of Devs. Utilizamos Immutable X, un rollup de Ethereum.
 
 ## Abstract
 
